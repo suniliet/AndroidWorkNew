@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/buttoncolor"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imageButton_createnewset"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/roundedbutton"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_createnewset" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <GridView
+                android:id="@+id/gridView_pictureset"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginRight="-10dp"
+                android:horizontalSpacing="-15dp"
+                android:numColumns="3"
+                android:padding="0dp"
+                tools:listitem="@layout/gallery_item" >
+
+            </GridView>
+        </FrameLayout>
+
+   
+    </LinearLayout>
+
+</LinearLayout>

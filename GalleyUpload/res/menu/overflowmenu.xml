@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+      <item
+        android:id="@+id/editprofile"
+        android:title="Edit Profile"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"/>
+   
+<!--       <item
+        android:id="@+id/setting"
+        android:icon="@drawable/abs__ic_menu_moreoverflow_holo_light"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings">
+        
+        <menu>
+
+            <item
+                android:id="@+id/menu_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share"/>
+            
+              <item
+                android:id="@+id/menu_chat"
+                android:icon="@drawable/smack_icon"
+                android:title="Group Chat"/>
+        </menu>
+        
+       </item>
+    -->
+    <!--  -->
+</menu>

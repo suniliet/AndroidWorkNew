@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gallery Upload</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_pick">Pick From Gallery</string>
+    <string name="btn_pick_mul">Pick From Gallery (Multiple)</string>
+    <string name="internet_error">Internet Connection Error.</string>
+    <string name="timeout">Unable to reach server or connection timeout. Please try again.</string>
+    <string name="affiliateid">Click Here to Get an Affiliate ID http://tonza-app.com/partner-signup.html</string>
+    <string name="affiliateid_reqiured">Please obtain an affiliate ID by registering with our payment provider.
+ http://tonza-app.com/partner-signup.html</string>
+    <string name="upload_pic">Upload pictures. Then create a picture set to sell.</string>
+    <string name="all_pic_organised">All your pictures have been organized in to sets.</string>
+    <string name="pic_not_assigned">You currently have pictures that are not assigned to a set. Only pictures grouped into sets can go live in the store.</string>
+    <string name="pic_required_ten">Picture sets require a minimum of 10 pictures to go live in the store.</string>
+    <string name="set_already_live">This Set in live. You can not edit/add in this set</string>
+    <string name="set_had_already">Set had already completed with maximum pictures.</string>
+    <string name="set_created">Set Created Successfully.</string>
+    <string name="same_set">Same Set name already exist.</string>
+    <string name="select_one_File">Please select atleast one file.</string>
+    <string name="not_yet_uploaded">Not yet uploaded any video.</string>
+    <string name="select_onepending_todelete">Please select only pending video to delete</string>
+    <string name="thumb_updated">Thumbnail updated successfully.</string>
+    <string name="video_name_added">Video Name Added Successfully.</string>
+    <string name="check_atleast_onecat">Please check atleast one category.</string>
+    <string name="cat_added">Category Added Successfully</string>
+    <string name="not_set">This partner donot have any set</string>
+    <string name="set_already_live">This set is already in live. You can not edit/add in this set.</string>
+    <string name="already_req_forapproval">You can not edit/add this set. You already requested for approval to sell. Our staff will review your content before it appears in the store.</string>
+    <string name="added_cat">Added category for this set</string>
+    <string name="set_deleted">Set is deleted.</string>
+    <string name="not_edit_set">You can not edit this set, Our staff is reviewing your content.</string>
+    <string name="staff_review">Our staff will review your content before it appears in the store.</string>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+
+</resources>
